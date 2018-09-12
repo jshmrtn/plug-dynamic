@@ -31,8 +31,8 @@ jobs:
       before_script: travis_wait mix dialyzer --plt
       script: mix dialyzer --halt-exit-status
       elixir: 1.7
-    - stage: inch
-      env:
-        - MIX_ENV=docs
-      script: mix inch.report
-      elixir: 1.7
+    # - stage: inch
+    #   env:
+    #     - MIX_ENV=dev
+    #   script: mix inch.report || echo "Inch CI Error"
+    #   elixir: 1.7

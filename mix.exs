@@ -35,7 +35,7 @@ defmodule PlugDynamic.MixProject do
     [
       {:plug, "~> 1.6"},
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false},
-      {:inch_ex, only: :docs, runtime: false},
+      # {:inch_ex, only: :dev, runtime: false},
       {:excoveralls, "~> 0.4", only: :test, runtime: false},
       {:dialyxir, "~> 1.0-rc", only: :dev, runtime: false},
       {:credo, "~> 0.5", only: :dev, runtime: false}
