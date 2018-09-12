@@ -3,7 +3,7 @@
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/jshmrtn/plug-dynamic/master/LICENSE)
 [![Build Status](https://travis-ci.org/jshmrtn/plug-dynamic.svg?branch=master)](https://travis-ci.org/jshmrtn/plug-dynamic)
 [![Hex.pm Version](https://img.shields.io/hexpm/v/plug_dynamic.svg?style=flat)](https://hex.pm/packages/plug_dynamic)
-[![InchCI](https://inch-ci.org/github/jshmrtn/plug-dynamic.svg?branch=master)](https://inch-ci.org/github/jshmrtn/plug-dynamic)
+<!-- [![InchCI](https://inch-ci.org/github/jshmrtn/plug-dynamic.svg?branch=master)](https://inch-ci.org/github/jshmrtn/plug-dynamic) -->
 [![Coverage Status](https://coveralls.io/repos/github/jshmrtn/plug-dynamic/badge.svg?branch=master)](https://coveralls.io/github/jshmrtn/plug-dynamic?branch=master)
 
 
