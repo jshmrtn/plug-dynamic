@@ -25,3 +25,18 @@ end
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
 and published on [HexDocs](https://hexdocs.pm). The docs can be found at
 [https://hexdocs.pm/plug_dynamic](https://hexdocs.pm/plug_dynamic).
+
+## Usage Example
+
+For detailed instructions check the [documentation](https://hexdocs.pm/plug_dynamic).
+
+```elixir
+defmodule Acme.Endpoint do
+  use Plug.Builder
+  use PlugDynamic
+
+  dynamic_plug Plug.IpWhitelist.IpWhitelistEnforcer, [reevaluate: :first_usage] do
+    Application.fetch_env!(:acme, Plug.IpWhitelist.IpWhitelistEnforcer)
+  end
+end
+```
